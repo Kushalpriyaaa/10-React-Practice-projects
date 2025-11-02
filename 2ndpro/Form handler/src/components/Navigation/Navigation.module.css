@@ -1,0 +1,26 @@
+.navigation {
+  padding: 0 8px;
+  display: flex;
+  height: 72px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navigation ul {
+  display: flex;
+  gap: 24px;
+  list-style-type: none;
+  font-weight: 500;
+}
+
+/* Logo container and image sizing to prevent very large intrinsic images */
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 60px; /* pick a reasonable default, adjust as needed */
+  height: auto;
+  object-fit: contain;
+}
